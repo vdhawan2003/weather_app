@@ -27,7 +27,7 @@ input.addEventListener("keydown", (event) => {
 
 function getweather(city) {
     console.log(city);
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b303322192ee7e867b66ba23b6053172&units=metric`)
+    fetch(``)
     .then(response => response.json())
     .then(data => {
         console.log(data);
